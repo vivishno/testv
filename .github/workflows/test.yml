@@ -8,7 +8,7 @@ name: Build and deploy Plain Node.js on Linux Web App
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    steps:
+    steps: 
     # checkout the repo
     - uses: actions/checkout@master
 
